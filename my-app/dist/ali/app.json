@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "defaultTitle": "萤火虫音乐",
+    "titleBarColor": "#d81e06"
+  }
+}

@@ -1,0 +1,149 @@
+.app___2lhPP {
+  height: 100%;
+}
+
+.logo___Al4Xb {
+  animation: logo-spin___3_EwH infinite 20s linear;
+  height: 240rpx;
+  width: 240rpx;
+  pointer-events: none;
+}
+
+.text___XEtZ5 {
+  margin-top: 64rpx;
+}
+
+@keyframes logo-spin___3_EwH {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.svg-icon {
+  display: inline-block;
+}
+
+.header {
+  height: 100rpx;
+  position: sticky;
+  top: 0;
+  background-color: #f5f1f1;
+  padding: 0 20rpx;
+  z-index: 1000;
+}
+.header .header-div {
+  height: 100%;
+  display: flex;
+}
+.header .header-div .header-menu {
+  margin-top: 26rpx;
+  width: 80rpx;
+  text-align: left;
+}
+.header .header-div .header-search {
+  width: 80rpx;
+  margin-top: 26rpx;
+  text-align: right;
+}
+.header .header-div .header-tabs {
+  flex: 1;
+  display: flex;
+  line-height: 100rpx;
+}
+.header .header-div .header-tabs .tab {
+  flex: 1;
+  color: #666;
+  text-align: center;
+  position: relative;
+}
+.header .header-div .header-tabs .tab .new {
+  position: absolute;
+  top: 20rpx;
+  right: 0;
+  height: 20rpx;
+  width: 20rpx;
+  border-radius: 50%;
+  background-color: #d81e06;
+}
+.header .header-div .header-tabs .tab.active {
+  font-size: 40rpx;
+  color: #333;
+  font-weight: 500;
+}
+
+.carousel {
+  margin: 20rpx 0;
+}
+
+.user {
+  padding: 0 20rpx;
+}
+.user .user-find {
+  width: calc(100% + 40rpx);
+  height: 200rpx;
+  border-radius: 10rpx;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20rpx;
+  margin: 0 -20rpx;
+}
+.user .user-find .flex {
+  display: inline-block;
+  width: 140rpx;
+}
+.user .user-find .flex .flex-div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.user .user-find .flex .flex-div .flex-img {
+  width: 120rpx;
+  height: 120rpx;
+}
+.user .user-find .flex .flex-div .flex-label {
+  width: 100%;
+  font-size: 24rpx;
+  line-height: 60rpx;
+  display: block;
+}
+
+.context {
+  min-height: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 120rpx;
+  margin-left: -20rpx;
+  border-top: 1rpx solid #ddd;
+}
+.footer .footer-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 20rpx;
+}
+.footer .footer-content .footer-image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.footer .footer-content .footer-image image {
+  width: 100%;
+  height: 100%;
+}
+.footer .footer-content .footer-label {
+  flex: 1;
+  height: 100%;
+}
+.footer .footer-content .footer-progress {
+  height: 100%;
+  width: 80rpx;
+}
+
