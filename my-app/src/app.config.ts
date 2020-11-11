@@ -12,7 +12,7 @@ export const wechat: WechatAppConfig = {
   window: {
     navigationBarBackgroundColor: color,
     navigationBarTitleText: title,
-    
+    enablePullDownRefresh: true
   },
 };
 
@@ -21,6 +21,7 @@ export const ali: AliAppConfig = {
   window: {
     defaultTitle: title,
     titleBarColor: color,
+    pullRefresh: 'YES'
   },
 };
 

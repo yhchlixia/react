@@ -6,19 +6,12 @@ import React, { useEffect, useState } from 'react';
 import './Context.less';
 
 interface IContext {
-    menu: string
+    menu: string,
+    backgroundColor?: string
 }
 const Context = (props: IContext) => {
-    const [backgroundColor, setBackgroundColor] = useState('#ffffff');
-    useEffect(() => {
-        if (props.menu === '1') {
-            setBackgroundColor('');
-        } else {
-            setBackgroundColor('#ffffff');
-        }
-    }, [props.menu])
     return (
-    <div className="context" style={{backgroundColor: backgroundColor}}>
+    <div className="context" style={{backgroundColor: props.backgroundColor}}>
         {
             props.menu === '1' ? <User /> : props.menu === '2' ? <Find /> : props.menu === '3' ? <Cloud /> : props.menu === '4' ? <Video /> : null
         }

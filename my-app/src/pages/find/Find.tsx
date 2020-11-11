@@ -2,7 +2,7 @@ import { Cell, Loading, SwipeAction, Swiper } from 'annar';
 import React, { useEffect } from 'react'
 import Carousel from '../component/Carousel/Carousel';
 import SvgIcon from '../component/SvgIcon/SvgIcon';
-import './Find.less'
+import './Find.less';
 
 const Find = (props: any) => {
     const images = [
@@ -71,6 +71,7 @@ const Find = (props: any) => {
     const handleDelete = async () => {
       console.log('Delete');
     };
+    const yhch = '萤火虫'
     return (
         <div className="user">
             <Carousel images={images} timeOut={2} />

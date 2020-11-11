@@ -4,6 +4,7 @@
   ],
   "window": {
     "defaultTitle": "萤火虫音乐",
-    "titleBarColor": "#d81e06"
+    "titleBarColor": "#d81e06",
+    "pullRefresh": "YES"
   }
 }

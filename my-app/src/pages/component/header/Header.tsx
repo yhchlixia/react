@@ -3,7 +3,8 @@ import SvgIcon from '../SvgIcon/SvgIcon';
 import './Header.less'
 
 interface IHeader {
-    ocChangeTab: (id: any) => void
+    ocChangeTab: (id: any) => void,
+    backgroundColor?: string
 }
 
 const Header = (props: IHeader) => {
@@ -42,7 +43,7 @@ const Header = (props: IHeader) => {
         props.ocChangeTab && props.ocChangeTab(id)
     }
     return (
-        <div className="header">
+        <div className="header" style={{backgroundColor: props.backgroundColor}}>
             <div className="header-div">
                 <div className="header-menu">
                     <SvgIcon type="menu" size='48'></SvgIcon>

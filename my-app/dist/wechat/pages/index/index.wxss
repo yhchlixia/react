@@ -1,19 +1,31 @@
-.app___2lhPP {
+.app {
   height: 100%;
 }
 
-.logo___Al4Xb {
-  animation: logo-spin___3_EwH infinite 20s linear;
+.show-update {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background-color: #fff;
+  position: fixed;
+  top: 120rpx;
+  left: 50%;
+  z-index: 1001;
+  padding: 30rpx;
+  transform: translateX(-50%);
+}
+.logo {
+  animation: logo-spin infinite 20s linear;
   height: 240rpx;
   width: 240rpx;
   pointer-events: none;
 }
 
-.text___XEtZ5 {
+.text {
   margin-top: 64rpx;
 }
 
-@keyframes logo-spin___3_EwH {
+@keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -75,11 +87,18 @@
 }
 
 .carousel {
-  margin: 20rpx 0;
+  padding: 20rpx 0;
 }
 
 .user {
   padding: 0 20rpx;
+}
+.user .user-find::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.user .texty {
+  height: 100%;
 }
 .user .user-find {
   width: calc(100% + 40rpx);
@@ -110,8 +129,13 @@
   display: block;
 }
 
+
 .context {
   min-height: 100%;
+}
+.context::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .footer {

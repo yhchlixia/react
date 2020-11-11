@@ -544,7 +544,9 @@ module.exports = {
   }
 },
           pageEvents: {
-  "pages/index/index": []
+  "pages/index/index": [
+    "onPullDownRefresh"
+  ]
 },
           appEvents: []
         }
